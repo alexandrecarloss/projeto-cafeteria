@@ -3,21 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <title>Code & Coffee | Cafeteria Gourmet para Devs</title>
+    
+    <meta name="description" content="A combinação perfeita entre café especial de alta qualidade e o ambiente ideal para o seu momento de foco e código." />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Cafeteria gourmet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
       <section>
-        <a href="#" class="logo">
-          <img src="img/logo.png" alt="Logo da Cafeteria Gourmet" />
+        <a href="#home" class="logo">
+          <img src="img/logo.png" alt="Logo da Cafeteria Code & Coffee" />
         </a>
+
         <nav class="navbar">
           <a href="#home">Home</a>
           <a href="#about">Sobre</a>
@@ -25,34 +27,24 @@
           <a href="#review">Avaliações</a>
           <a href="#address">Endereço</a>
         </nav>
+
         <div class="icons">
-          <img
-            width="30"
-            height="30"
-            src="https://img.icons8.com/ios-glyphs/30/ffffff/search--v1.png"
-            alt="search--v1"
-          />
-          <img
-            width="30"
-            height="30"
-            src="https://img.icons8.com/ios/30/ffffff/shopping-cart--v1.png"
-            alt="shopping-cart--v1"
-          />
+          <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/search--v1.png" alt="Ícone de Pesquisa" />
+          <img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/shopping-cart--v1.png" alt="Ícone de Carrinho de Compras" />
         </div>
+
+        <img width="30" height="30" src="https://img.icons8.com/ios/30/ffffff/menu--v1.png" id="btn-menu" class="btn-menu" alt="Abrir Menu de Navegação" />
       </section>
     </header>
 
     <div class="home-container">
       <section id="home">
         <div class="content">
-          <h3>CODE COM O MELHOR CAFÉ DA REGIÃO</h3>
+          <h3>Programe com o Melhor Café da Região</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-            facere fugiat, nemo, illo accusantium voluptas voluptatem, eum
-            accusamus officiis libero doloribus officia repellat ab ratione
-            saepe quibusdam. Ea, perferendis minus.
+            Grãos selecionados, torra artesanal e o combustível exato para transformar suas ideias em código de alta performance.
           </p>
-          <a href="#" class="btn">Pegue o seu agora</a>
+          <a href="#menu" class="btn">Garanta o seu agora</a>
         </div>
       </section>
     </div>
@@ -61,125 +53,138 @@
       <h2 class="title">Sobre <span>Nós</span></h2>
       <div class="row">
         <div class="container-image">
-          <img src="img/about-img.jpg" alt="sobre-nos" />
+          <img src="img/about-img.jpg" alt="Barista preparando café especial no coador" />
         </div>
         <div class="content">
-          <h3>O que faz nosso café especial</h3>
+          <h3>O que faz nosso café ser inesquecível</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
-            facere fugiat, nemo, illo accusantium voluptas voluptatem, eum
-            accusamus officiis libero doloribus officia repellat ab ratione
-            saepe quibusdam. Ea, perferendis minus.
+            Nascemos da união entre duas paixões: café de especialidade e tecnologia. Entendemos que para criar grandes projetos é preciso foco, clareza mental e um ambiente inspirador.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            officiis ipsa reprehenderit placeat quidem possimus necessitatibus
-            hic totam aliquam, quod sunt explicabo provident suscipit pariatur,
-            rem facere natus perferendis! Facere.
+            Trabalhamos exclusivamente com produtores locais e grãos 100% Arábica de pontuação elevada, garantindo notas sensoriais marcantes em cada xícara servida.
           </p>
-          <a href="#" class="btn">Saiba mais</a>
+          <a href="#address" class="btn">Conheça nosso espaço</a>
         </div>
       </div>
     </section>
 
     <section class="menu" id="menu">
-      <h2>Nosso <span>Menu</span></h2>
+      <h2 class="title">Nosso <span>Menu</span></h2>
       <div class="box-container">
         <div class="box">
-          <img src="img/menu-1.png" alt="item-1" />
-          <h3>Café coado</h3>
+          <img src="img/menu-1.png" alt="Xícara de Café Coado artesanal" />
+          <h3>Café Coado Especial</h3>
           <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
-          <a href="#" class="btn">Adicione ao carrinho</a>
+          <a href="#" class="btn">Adicionar ao carrinho</a>
         </div>
         <div class="box">
-          <img src="img/menu-2.png" alt="item-2" />
-          <h3>Café expresso</h3>
+          <img src="img/menu-2.png" alt="Xícara de Café Expresso com crema densa" />
+          <h3>Espresso Duplo</h3>
           <div class="price">R$ 12,99 <span>R$ 18,99</span></div>
-          <a href="#" class="btn">Adicione ao carrinho</a>
+          <a href="#" class="btn">Adicionar ao carrinho</a>
         </div>
         <div class="box">
-          <img src="img/menu-3.png" alt="item-3" />
-          <h3>Café com leite</h3>
+          <img src="img/menu-3.png" alt="Copo de Café com Leite cremoso" />
+          <h3>Flat White / Leite Cremoso</h3>
           <div class="price">R$ 18,99 <span>R$ 25,99</span></div>
-          <a href="#" class="btn">Adicione ao carrinho</a>
+          <a href="#" class="btn">Adicionar ao carrinho</a>
         </div>
         <div class="box">
-          <img src="img/menu-4.png" alt="item-4" />
-          <h3>Café gelado</h3>
+          <img src="img/menu-4.png" alt="Copo de Cold Brew Café Gelado" />
+          <h3>Cold Brew Artesanal</h3>
           <div class="price">R$ 14,99 <span>R$ 19,99</span></div>
-          <a href="#" class="btn">Adicione ao carrinho</a>
+          <a href="#" class="btn">Adicionar ao carrinho</a>
         </div>
         <div class="box">
-          <img src="img/menu-5.png" alt="item-5" />
-          <h3>Café mocha</h3>
+          <img src="img/menu-5.png" alt="Copo de Café Mocha com calda de chocolate" />
+          <h3>Mocha Chocolate Belga</h3>
           <div class="price">R$ 19,99 <span>R$ 29,99</span></div>
-          <a href="#" class="btn">Adicione ao carrinho</a>
+          <a href="#" class="btn">Adicionar ao carrinho</a>
         </div>
         <div class="box">
-          <img src="img/menu-6.png" alt="item-6" />
-          <h3>Café caramel</h3>
+          <img src="img/menu-6.png" alt="Copo de Café Caramel Macchiato" />
+          <h3>Caramel Macchiato</h3>
           <div class="price">R$ 17,99 <span>R$ 27,99</span></div>
-          <a href="#" class="btn">Adicione ao carrinho</a>
+          <a href="#" class="btn">Adicionar ao carrinho</a>
         </div>
       </div>
     </section>
 
     <section class="review" id="review">
-        <h2 class="title">Nossos <span>Clientes</span></h2>
-        <div class="box-container">
-            <div class="box">
-                <img src="img/quote-img.png" alt="comentário">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore autem rerum odio ducimus ipsam. Nostrum eos voluptate officiis, ducimus repellat quibusdam nemo, ipsum quae sint quas praesentium. Quibusdam, magni asperiores!</p>
-                <img src="img/pic-1.png" alt="foto-cliente" class="user">
-                <h3>João da Silva</h3>
-                <div class="stars">
-                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="star--v1"/>
-                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="star--v1"/>
-                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="star--v1"/>
-                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="star--v1"/>
-                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/FFF900/star-half-empty.png" alt="star-half-empty"/>
-                </div>
-            </div>
-            <div class="box">
-                <img src="img/quote-img.png" alt="comentário">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore autem rerum odio ducimus ipsam. Nostrum eos voluptate officiis, ducimus repellat quibusdam nemo, ipsum quae sint quas praesentium. Quibusdam, magni asperiores!</p>
-                <img src="img/pic-2.png" alt="foto-cliente" class="user">
-                <h3>Maria do like</h3>
-                <div class="stars">
-                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="star--v1"/>
-                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="star--v1"/>
-                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="star--v1"/>
-                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/FFF900/star-half-empty.png" alt="star-half-empty"/>
-                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/star--v1.png" alt="star--v1"/>
-                </div>
-            </div>
-            <div class="box">
-                <img src="img/quote-img.png" alt="comentário">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore autem rerum odio ducimus ipsam. Nostrum eos voluptate officiis, ducimus repellat quibusdam nemo, ipsum quae sint quas praesentium. Quibusdam, magni asperiores!</p>
-                <img src="img/pic-3.png" alt="foto-cliente" class="user">
-                <h3>Rodolfo Mori</h3>
-                <div class="stars">
-                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="star--v1"/>
-                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="star--v1"/>
-                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="star--v1"/>
-                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="star--v1"/>
-                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/FFF900/star-half-empty.png" alt="star-half-empty"/>
-                </div>
-            </div>
+      <h2 class="title">Nossos <span>Clientes</span></h2>
+      <div class="box-container">
+        <div class="box">
+          <img src="img/quote-img.png" alt="Ícone de citação" class="quote-icon" />
+          <p>
+            "Ambiente impecável com Wi-Fi super rápido e tomadas em todas as mesas. O Cold Brew é simplesmente o melhor que já tomei enquanto programava!"
+          </p>
+          <img src="img/pic-1.png" alt="Foto de perfil de João Silva, Desenvolvedor Full-Stack" class="user" />
+          <h3>João Silva</h3>
+          <div class="stars">
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="Estrela preenchida" />
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="Estrela preenchida" />
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="Estrela preenchida" />
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="Estrela preenchida" />
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="Estrela preenchida" />
+          </div>
         </div>
+
+        <div class="box">
+          <img src="img/quote-img.png" alt="Ícone de citação" class="quote-icon" />
+          <p>
+            "O Espresso Duplo é encorpado e acorda qualquer um após uma maratona de código. O atendimento é ágil e extremamente amigável."
+          </p>
+          <img src="img/pic-2.png" alt="Foto de perfil de Mariana Costa, UI/UX Designer" class="user" />
+          <h3>Mariana Costa</h3>
+          <div class="stars">
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="Estrela preenchida" />
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="Estrela preenchida" />
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="Estrela preenchida" />
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="Estrela preenchida" />
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="Estrela preenchida" />
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/quote-img.png" alt="Ícone de citação" class="quote-icon" />
+          <p>
+            "O método coado deles tem notas sensoriais incríveis. É meu ponto fixo para reuniões de alinhamento com a equipe e sessões de estudo."
+          </p>
+          <img src="img/pic-3.png" alt="Foto de perfil de Rodolfo Mori, Engenheiro de Software" class="user" />
+          <h3>Rodolfo Mori</h3>
+          <div class="stars">
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="Estrela preenchida" />
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="Estrela preenchida" />
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="Estrela preenchida" />
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFF900/star--v1.png" alt="Estrela preenchida" />
+            <img width="20" height="20" src="https://img.icons8.com/ios-filled/30/FFF900/star-half-empty.png" alt="Meia estrela" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="address" id="address">
-        <h2 class="title">Nosso <span>Endereço</span></h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1606.3354790522133!2d-60.185367749452084!3d-3.2794410869710746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1773696628296!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <h2 class="title">Nosso <span>Endereço</span></h2>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1606.3354790522133!2d-60.185367749452084!3d-3.2794410869710746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1773696628296!5m2!1spt-BR!2sbr"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Localização da Cafeteria"
+        ></iframe>
+      </div>
     </section>
-    
+
     <footer class="footer">
-        <div class="share">
-            <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/instagram-new--v1.png" alt="instagram-new--v1"/>
-            <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" alt="facebook-new"/>
-            <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/twitterx--v2.png" alt="twitterx--v2"/>
-        </div>
+      <div class="share">
+        <a href="#" aria-label="Instagram"><img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/instagram-new--v1.png" alt="Instagram" /></a>
+        <a href="#" aria-label="Facebook"><img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" alt="Facebook" /></a>
+        <a href="#" aria-label="X (Twitter)"><img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/twitterx--v2.png" alt="Twitter/X" /></a>
+      </div>
+      <p class="credit">Desenvolvido com <span>HTML, CSS e JavaScript</span> para Portfólio</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
