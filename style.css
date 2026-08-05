@@ -100,7 +100,9 @@ section {
 }
 
 .home-container {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("./img/home-img.jpg") no-repeat center/cover;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./img/home-img.jpg") no-repeat center/cover;
 }
 
 .home-container section {
@@ -276,6 +278,7 @@ section {
   border-radius: 0.8rem;
   overflow: hidden;
   border: var(--border);
+  margin: 0 auto;
 }
 
 .address iframe {
